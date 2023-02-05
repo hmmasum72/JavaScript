@@ -16,20 +16,48 @@
 
 // problem 2
 
-var masum = 85;
-var tom = 66;
-var jane =95;
-var peter = 56;
-var john = 40;
-if(masum > 80){
-    console.log('A grade')
+// var masum = 85;
+// var tom = 66;
+// var jane =95;
+// var peter = 56;
+// var john = 40;
+
+// if(masum > 80){
+//     console.log('A');
+// }
+// else if(masum > 60){
+//     console.log('B');
+// }
+// else if(masum > 50){
+//     console.log('C');
+// }
+// else if( masum > 40){
+//     console.log('D');
+// }
+// else{
+//     console.log('F');
+// }
+
+// problem 3
+
+var number1 = 35;
+var number2 = 37;
+var number3 = 31;
+// if(number1 > number2){
+//     console.log(number1)
+// }
+// else if(number2 > number3){
+//     console.log(number2)
+// }
+// else{
+//     console.log(number3)
+// }
+if (number1 > number2 && number1 > number3){
+    console.log(number1)
 }
-if(masum > 60){
-    console.log('B grade')
+if(number2 > number1 && number2 > number2){
+    console.log(number2)
 }
-if(masum > 50){
-    console.log('C grade')
-}
-if(masum > 40){
-    console.log('D grade')
+else{
+    console.log(number3)
 }
